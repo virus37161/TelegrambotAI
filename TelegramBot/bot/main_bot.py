@@ -8,14 +8,14 @@ from aiogram.filters import CommandStart
 from aiogram.types import Message
 from aiogram import F
 from aiogram.types import ChatMemberUpdated
-from tokens import TOKEN
 import views
 from aiogram.fsm.context import FSMContext
 from aiogram.filters import ChatMemberUpdatedFilter, IS_NOT_MEMBER, IS_MEMBER
 from g4f.client import AsyncClient
 import g4f
 from Teksts import invite_tekst
-from filters.chat_type import ChatTypeFilter
+from bot.filters.chat_type import ChatTypeFilter
+TOKEN = '7282617540:AAFW3x6G07UUP18qu8Z7CcuP-3nxiHTAsjw'
 dp = Dispatcher()
 
 class Order(StatesGroup):

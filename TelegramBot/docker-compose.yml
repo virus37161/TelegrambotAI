@@ -4,4 +4,3 @@ services:
     build: .
     command: sh -c "python -m bot"
     restart: always
-      
